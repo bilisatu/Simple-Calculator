@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Simple Calculator</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <main class="app">
+            <section class="card" role="region" aria-label="Simple Calculator">
+                <h1 class="title">Simple Calculator</h1>
+
+                <div class="inputs">
+                    <label class="field">
+                        <span>First number</span>
+                        <input id="num1" type="number" placeholder="e.g., 12" inputmode="decimal" />
+                    </label>
+
+                    <label class="field">
+                        <span>Second number</span>
+                        <input id="num2" type="number" placeholder="e.g., 8" inputmode="decimal" />
+                    </label>
+                </div>
+
+                <div class="actions">
+                    <button id="addBtn" class="btn primary" aria-label="Calculate sum" type="button">Calculate</button>
+                    <button id="clearBtn" class="btn" type="button">Clear</button>
+                </div>
+
+                <output id="result" class="result" aria-live="polite">Result will appear here</output>
+            </section>
+
+            <footer class="footer">
+                <span>Made by Tuji (Safraeel)</span>
+            </footer>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
