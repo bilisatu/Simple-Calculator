@@ -4,7 +4,8 @@ A tiny, polished web calculator that adds two numbers. Perfect for a first GitHu
 
 ## Preview
 
-Open `index.html` in your browser.
+- Live demo: https://bilisatu.github.io/Simple-Calculator/
+- Or open `index.html` locally in your browser.
 
 ## Features
 - Responsive card layout with a modern, dark gradient theme
